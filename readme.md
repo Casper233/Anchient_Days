@@ -1,6 +1,6 @@
 # 古之生活  Ancient Days
 
-**中文** / [English](https://github.com/Casper233/Anchient_Days/blob/master/readme.md)
+**中文** / [English](https://github.com/Casper233/Anchient_Days/blob/master/readme_en.md)
 
 ## 前言
 这个mod作为1.19的mod的尝试，会有些许bug，请在Issue上提交，谢谢。
