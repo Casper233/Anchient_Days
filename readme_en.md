@@ -16,9 +16,19 @@ The debris are now deeply under the soil.
 
 ## Others
 
-This mod needs to put in both client and server.
+This mod needs to put in both client and server side.
 
 ## Update log
+
+**2022-12-24-1**
+Added following items/blocks:
+- Bronze Ingot
+- Bronze Ore
+- Deepslate Bronze Ore
+- Bronze Block
+#### These following blocks can be spawned in the world
+- Deepslate Bronze Ore
+- Deepslate Debris Ore
 
 **2022-12-16-1**
 

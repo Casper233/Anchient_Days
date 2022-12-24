@@ -27,8 +27,19 @@ public class ModConfiguredFeatures {
                             .get().defaultBlockState())
                     ));
 
+    public static final Supplier<List<OreConfiguration.TargetBlockState>> OVERWORLD_BRONZE_ORES = Suppliers
+            .memoize(() -> List.of(OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, BlockInit.BRONZE_ORE
+                            .get().defaultBlockState()),
+                    OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, BlockInit.DEEPSLATE_BRONZE_ORE
+                            .get().defaultBlockState())
+            ));
+
     public static final RegistryObject<ConfiguredFeature<?, ?>> DEBRIS_ORES = CONFIGURED_FEATURES.register(
-            "debris_ore", () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_DEBRIS_ORES
+            "debris_ores", () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_DEBRIS_ORES
+                    .get(), 7)));
+
+    public static final RegistryObject<ConfiguredFeature<?, ?>> BRONZE_ORES = CONFIGURED_FEATURES.register(
+            "bronze_ores", () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_BRONZE_ORES
                     .get(), 7)));
 
     public static void register(IEventBus eventBus) {

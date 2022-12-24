@@ -1,7 +1,11 @@
 {
   "item.aciday.debris": "Debris",
+  "item.aciday.bronze_ingot": "Bronze Ingot",
   "block.aciday.debris_ore": "Debris Ore",
+  "block.aciday.bronze_ore": "Bronze Ore",
   "block.aciday.debris_block": "Debris Block",
+  "block.aciday.bronze_block": "Bronze Block",
   "block.aciday.deepslate_debris_ore": "Deepslate Debris Ore",
+  "block.aciday.deepslate_bronze_ore": "Deepslate Bronze Ore",
   "itemGroup.aciday": "Ancient Days"
 }

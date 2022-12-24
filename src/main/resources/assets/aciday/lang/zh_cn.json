@@ -1,7 +1,11 @@
 {
   "item.aciday.debris": "碎片",
+  "item.aciday.bronze_ingot": "青铜锭",
   "block.aciday.debris_ore": "碎片矿石",
+  "block.aciday.bronze_ore": "青铜矿石",
   "block.aciday.debris_block": "碎片块",
+  "block.aciday.bronze_block": "青铜块",
   "block.aciday.deepslate_debris_ore": "深层碎片矿石",
+  "block.aciday.deepslate_bronze_ore": "深层青铜矿石",
   "itemGroup.aciday": "古代时期"
 }

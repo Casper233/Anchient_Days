@@ -11,7 +11,11 @@ import java.util.function.Supplier;
 public class ItemInit {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Main.MOD_ID);
 
+    //items
     public static final RegistryObject<Item> DEBRIS = register("debris",
+            () -> new Item(new Item.Properties().tab(Main.ACIDAY_TAB)));
+
+    public static final RegistryObject<Item> BRONZE_INGOT = register("bronze_ingot",
             () -> new Item(new Item.Properties().tab(Main.ACIDAY_TAB)));
 
     private static <T extends Item> RegistryObject<T> register(final String name, final Supplier<T> item) {

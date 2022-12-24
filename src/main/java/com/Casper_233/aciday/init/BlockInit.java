@@ -33,15 +33,28 @@ public class BlockInit {
             DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(5f)
             .requiresCorrectToolForDrops(), UniformInt.of(3, 10)), Main.ACIDAY_TAB);
 
+    public static final RegistryObject<Block> BRONZE_ORE = registerBlock("bronze_ore", () -> new
+            DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(5f)
+            .requiresCorrectToolForDrops(), UniformInt.of(3, 10)), Main.ACIDAY_TAB);
+
     //ore_deep
     public static final RegistryObject<Block> DEEPSLATE_DEBRIS_ORE = registerBlock("deepslate_debris_ore", () ->
+            new Block(BlockBehaviour.Properties.of(Material.STONE).strength(7f).requiresCorrectToolForDrops()),
+            Main.ACIDAY_TAB);
+
+    public static final RegistryObject<Block> DEEPSLATE_BRONZE_ORE = registerBlock("deepslate_bronze_ore", () ->
             new Block(BlockBehaviour.Properties.of(Material.STONE).strength(7f).requiresCorrectToolForDrops()),
             Main.ACIDAY_TAB);
 
     //Blocks
     public static final RegistryObject<Block> DEBRIS_BLOCK = register("debris_block", () -> new
             Block(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_BROWN).strength(3f,
-                    4f).sound(SoundType.STONE).requiresCorrectToolForDrops()), object -> () -> new
+            4f).sound(SoundType.STONE).requiresCorrectToolForDrops()), object -> () -> new
+            BlockItem(object.get(), new Item.Properties().tab(Main.ACIDAY_TAB)));
+
+    public static final RegistryObject<Block> BRONZE_BLOCK = register("bronze_block", () -> new
+            Block(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_BROWN).strength(3f,
+            4f).sound(SoundType.METAL).requiresCorrectToolForDrops()), object -> () -> new
             BlockItem(object.get(), new Item.Properties().tab(Main.ACIDAY_TAB)));
 
     private static <T extends Block> RegistryObject<T> registryBlock(final String name,

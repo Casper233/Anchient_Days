@@ -3,6 +3,9 @@
   "values": [
     "aciday:debris_ore",
     "aciday:debris_block",
-    "aciday:deepslate_debris_ore"
+    "aciday:bronze_block",
+    "aciday:deepslate_debris_ore",
+    "aciday:bronze_ore",
+    "aciday:deepslate_bronze_ore"
   ]
 }

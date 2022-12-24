@@ -22,6 +22,12 @@ public class ModPlacedFeatures {
                     commonOrePlacement(7, HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-60),
                             VerticalAnchor.aboveBottom(60)))));
 
+    public static final RegistryObject<PlacedFeature> BRONZE_ORE_PLACED = PLACED_FEATURES.register(
+            "bronze_ore_placed", () -> new PlacedFeature(ModConfiguredFeatures.BRONZE_ORES.getHolder().get(),
+                    commonOrePlacement(24, HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-60),
+                            VerticalAnchor.aboveBottom(60)))));
+
+
     public static void register(IEventBus eventBus) {
         PLACED_FEATURES.register(eventBus);
     }
