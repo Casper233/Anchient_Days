@@ -19,7 +19,7 @@ public class ModPlacedFeatures {
     //ore-placement
     public static final RegistryObject<PlacedFeature> DEBRIS_ORE_PLACED = PLACED_FEATURES.register(
             "debris_ore_placed", () -> new PlacedFeature(ModConfiguredFeatures.DEBRIS_ORES.getHolder().get(),
-                    commonOrePlacement(7, HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-60),
+                    commonOrePlacement(24, HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-60),
                             VerticalAnchor.aboveBottom(60)))));
 
     public static final RegistryObject<PlacedFeature> BRONZE_ORE_PLACED = PLACED_FEATURES.register(

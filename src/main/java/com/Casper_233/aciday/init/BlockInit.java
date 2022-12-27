@@ -52,6 +52,11 @@ public class BlockInit {
             4f).sound(SoundType.STONE).requiresCorrectToolForDrops()), object -> () -> new
             BlockItem(object.get(), new Item.Properties().tab(Main.ACIDAY_TAB)));
 
+    public static final RegistryObject<Block> SMOOTH_DEBRIS_BLOCK = register("smooth_debris_block", () -> new
+            Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_BROWN).strength(3f,
+            4f).sound(SoundType.STONE).requiresCorrectToolForDrops()), object -> () -> new
+            BlockItem(object.get(), new Item.Properties().tab(Main.ACIDAY_TAB)));
+
     public static final RegistryObject<Block> BRONZE_BLOCK = register("bronze_block", () -> new
             Block(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_BROWN).strength(3f,
             4f).sound(SoundType.METAL).requiresCorrectToolForDrops()), object -> () -> new
