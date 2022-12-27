@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "EEE",
+    "EEE"
+  ],
+  "key": {
+    "E": {
+      "item": "aciday:debris"
+    }
+  },
+  "result": {
+    "item": "aciday:debris_block"
+  }
+}

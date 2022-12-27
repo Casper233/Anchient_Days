@@ -20,8 +20,19 @@ This mod needs to put in both client and server side.
 
 ## Update log
 
+**2022-12-27-1**
+#### Added following items/blocks' recipes
+- Bronze Ingot
+- Bronze Ore
+- Deepslate Bronze Ore
+- Bronze Block
+- Debris
+- Debris Ore
+- Deepslate Debris Ore
+- Debris Block
+
 **2022-12-24-1**
-Added following items/blocks:
+#### Added following items/blocks:
 - Bronze Ingot
 - Bronze Ore
 - Deepslate Bronze Ore

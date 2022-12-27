@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "aciday:debris_ore"
+  },
+  "result": "aciday:debris",
+  "experience": 0.35,
+  "cookingtime": 200
+}

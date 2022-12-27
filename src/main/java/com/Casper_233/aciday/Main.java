@@ -64,6 +64,7 @@ public class Main
         // Some common setup code
         LOGGER.info("HELLO FROM COMMON SETUP");
         LOGGER.info("DIRT BLOCK >> {}", ForgeRegistries.BLOCKS.getKey(Blocks.DIRT));
+        LOGGER.info("ACIDAY loaded successfully");
     }
 
     //You can use EventBusSubscriber automatically register static methods in the class annotated with @SubscribeEvent

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "aciday:debris_block"
+    }
+  ],
+  "result": {
+    "item": "aciday:debris",
+    "count": 9
+  }
+}

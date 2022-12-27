@@ -4,7 +4,7 @@ plugins {
     id 'net.minecraftforge.gradle' version '5.1.+'
 }
 
-version = '0.1.1'
+version = '1.19.2-0.0.1.2'
 group = 'com.Casper233.aciday' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'aciday'
 
@@ -46,7 +46,7 @@ minecraft {
             // Recommended logging level for the console
             // You can set various levels here.
             // Please read: https://stackoverflow.com/questions/2031163/when-to-use-the-different-log-levels
-            property 'forge.logging.console.level', 'debug'
+            property 'forge.logging.console.level', 'info'
 
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
             property 'forge.enabledGameTestNamespaces', 'aciday'
@@ -63,7 +63,7 @@ minecraft {
 
             property 'forge.logging.markers', 'REGISTRIES'
 
-            property 'forge.logging.console.level', 'debug'
+            property 'forge.logging.console.level', 'info'
 
             property 'forge.enabledGameTestNamespaces', 'aciday'
 
@@ -82,7 +82,7 @@ minecraft {
 
             property 'forge.logging.markers', 'REGISTRIES'
 
-            property 'forge.logging.console.level', 'debug'
+            property 'forge.logging.console.level', 'info'
 
             property 'forge.enabledGameTestNamespaces', 'aciday'
 
@@ -98,7 +98,7 @@ minecraft {
 
             property 'forge.logging.markers', 'REGISTRIES'
 
-            property 'forge.logging.console.level', 'debug'
+            property 'forge.logging.console.level', 'info'
 
             // Specify the modid for data generation, where to output the resulting resource, and where to look for existing resources.
             args '--mod', 'aciday', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')

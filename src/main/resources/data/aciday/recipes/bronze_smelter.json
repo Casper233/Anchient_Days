@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "aciday:bronze_ore"
+  },
+  "result": "aciday:bronze_ingot",
+  "experience": 0.35,
+  "cookingtime": 200
+}
