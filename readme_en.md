@@ -18,7 +18,12 @@ The debris are now deeply under the soil.
 
 This mod needs to put in both client and server side.
 
+***
+
 ## Update log
+
+**2022-12-29-1**
+#### Added the advancements
 
 **2022-12-27-2**
 #### Added following items/blocks and it's recipes:

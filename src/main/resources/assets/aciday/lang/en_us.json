@@ -1,6 +1,7 @@
 {
   "item.aciday.debris": "Debris",
   "item.aciday.bronze_ingot": "Bronze Ingot",
+
   "block.aciday.debris_ore": "Debris Ore",
   "block.aciday.bronze_ore": "Bronze Ore",
   "block.aciday.debris_block": "Debris Block",
@@ -8,5 +9,12 @@
   "block.aciday.deepslate_debris_ore": "Deepslate Debris Ore",
   "block.aciday.deepslate_bronze_ore": "Deepslate Bronze Ore",
   "block.aciday.smooth_debris_block": "Smooth Debris Block",
-  "itemGroup.aciday": "Ancient Days"
+
+  "itemGroup.aciday": "Ancient Days",
+
+  "advancements.aciday.debris.description": "Get a Debris",
+  "advancements.aciday.bronze": "This is Bronze~",
+  "advancements.aciday.bronze.description": "Get a Bronze Ingot",
+  "advancements.aciday.smooth_debris_block": "This looks fine, like metal!",
+  "advancements.aciday.smooth_debris_block.description": "Get one Smooth debris block"
 }

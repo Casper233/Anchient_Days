@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "aciday:bronze_ingot"
+    },
+    "title": {
+      "bold": false,
+      "translate": "advancements.aciday.bronze"
+    },
+    "description": {
+      "translate": "advancements.aciday.bronze.description"
+    }
+  },
+  "parent": "aciday:root",
+  "criteria": {
+    "bronze_in_inventory": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aciday:bronze_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

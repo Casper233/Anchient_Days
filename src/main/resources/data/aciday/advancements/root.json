@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "aciday:debris"
+    },
+    "title": {
+      "bold": true,
+      "translate": "itemGroup.aciday"
+    },
+    "description": {
+      "translate": "advancements.aciday.debris.description"
+    },
+    "background": "aciday:textures/gui/advancements.png"
+  },
+  "criteria": {
+    "debris_in_inventory": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aciday:debris"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

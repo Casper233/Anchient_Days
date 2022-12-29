@@ -1,6 +1,7 @@
 {
   "item.aciday.debris": "碎片",
   "item.aciday.bronze_ingot": "青铜锭",
+
   "block.aciday.debris_ore": "碎片矿石",
   "block.aciday.bronze_ore": "青铜矿石",
   "block.aciday.debris_block": "碎片块",
@@ -8,5 +9,12 @@
   "block.aciday.deepslate_debris_ore": "深层碎片矿石",
   "block.aciday.deepslate_bronze_ore": "深层青铜矿石",
   "block.aciday.smooth_debris_block": "平滑碎片块",
-  "itemGroup.aciday": "古之生活"
+
+  "itemGroup.aciday": "古之生活",
+
+  "advancements.aciday.debris.description": "获得碎片",
+  "advancements.aciday.bronze": "这是 这是青铜?",
+  "advancements.aciday.bronze.description": "获得青铜锭",
+  "advancements.aciday.smooth_debris_block": "看着不错，铁块亲戚？",
+  "advancements.aciday.smooth_debris_block.description": "获得平滑碎片块"
 }

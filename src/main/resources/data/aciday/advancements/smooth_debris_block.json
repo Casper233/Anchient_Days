@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "aciday:smooth_debris_block"
+    },
+    "title": {
+      "bold": false,
+      "translate": "advancements.aciday.smooth_debris_block"
+    },
+    "description": {
+      "translate": "advancements.aciday.smooth_debris_block.description"
+    }
+  },
+  "parent": "aciday:root",
+  "criteria": {
+    "bronze_in_inventory": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aciday:smooth_debris_block"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
