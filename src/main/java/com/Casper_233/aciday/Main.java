@@ -1,6 +1,8 @@
 package com.Casper_233.aciday;
 
+import com.Casper_233.aciday.effects.BaseEffect;
 import com.Casper_233.aciday.init.BlockInit;
+import com.Casper_233.aciday.init.EffectInit;
 import com.Casper_233.aciday.init.ItemInit;
 import com.Casper_233.aciday.world.feature.ModConfiguredFeatures;
 import com.Casper_233.aciday.world.feature.ModPlacedFeatures;
@@ -36,15 +38,18 @@ public class Main
 
     public Main()
     {
-        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus   ();
 
-        // Register the commonSetup method for modloading
+        // Register the commonSetup method for mod loading
         modEventBus.addListener(this::commonSetup);
         modEventBus.addListener(this::setup);
 
         //Items/Blocks
         ItemInit.ITEMS.register(modEventBus);
         BlockInit.BLOCKS.register(modEventBus);
+
+        //Effects/potions
+        //EffectInit.EFFECTS.register(modEventBus);
 
         //Ores
         ModConfiguredFeatures.register(modEventBus);
