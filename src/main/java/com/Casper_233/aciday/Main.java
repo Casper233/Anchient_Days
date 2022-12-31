@@ -61,7 +61,7 @@ public class Main
 
     private void setup(final FMLCommonSetupEvent event)
     {
-
+        LOGGER.info("ACIDAY loading!");
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)
