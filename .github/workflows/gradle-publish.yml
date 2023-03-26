@@ -7,9 +7,9 @@
 
 name: Gradle Package
 
-on:
-  release:
-    types: [created]
+on: [push, workflow_dispatch]
+
+permissions: write-all
 
 jobs:
   build:
